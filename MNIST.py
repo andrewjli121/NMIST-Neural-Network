@@ -2,6 +2,9 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
+#Largely inspired by
+#https://www.youtube.com/watch?v=w8yWXqWQYmU
+
 data = pd.read_csv('train.csv')
 
 data = np.array(data)
